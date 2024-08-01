@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-color: #CBE4F9;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#name a {
+    color: black;
+    text-decoration: none;
+}
+
+.project-section {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px 20px;
+    background-color: #a9cef1;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.project-section h1{
+    line-height: 1em;
+}
+
+.threejs-canvas {
+    height: 100vh;
+    width: 100vw;
+}
+
+.pol {
+    display: inline-block;
+    top: 0px;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-right: 100px;
+    margin-left: 50px;
+
+
+}
+
+.button {
+    background-color: #90B0CE;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 130%;
+    border-radius: 0%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.dropdown-links {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-links a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-links a:hover {background-color: #ddd;}
+
+.project-button:hover .dropdown-links {display: block;}
+
+.project-button:hover .button {background-color: #6a8197;}
+
+.welcome-statement {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 20px;
+}

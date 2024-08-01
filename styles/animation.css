@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+	margin: 0px;
+	height: 200vh;
+	font-family: 'Quicksand', sans-serif;
+	background-color: #CBE4F9;
+}
+
+#name {
+    display: inline-block;
+    font-size: 2.5em;
+    padding: 20px;
+}
+
+#name a{
+    color: black;
+    text-decoration: none;
+    margin: 10px 5px;
+}
+
+nav {
+	background-color: #90B0CE;
+	top: 0px;
+	left: 0px;
+	font-size: small;
+}
+
+.page1 {
+	height: 75vh;
+	display: grid;
+	grid-template-columns: 50vw 40vw;
+	grid-template-rows: 90vh;
+
+}
+
+.page1 img{
+	height:250px;
+	position: inline;
+	margin-top: 10px;
+}
+
+
+.text-1 {
+	margin-bottom: 500px;
+}
+
+
+
+.proj-intro {
+	height: 10vh;
+	padding-top: 20px;
+	padding-bottom: 20vh;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center;
+}
+
+.text {
+	text-align: center;
+	position: relative;
+	margin-right: 145px;
+	margin-left: 90px;
+	background-color: white;
+	margin-bottom: 400px;
+}
+
+.photo_1{
+	width: 80%;
+	height: 225px;
+	position: relative;
+}
+
+.photo-1 {
+	width: 30%;
+}
+
+.photo-2 {
+	width: 120%;
+	height:250px;
+}
+
+.photo-3 {
+	width: 120%;
+	height:250px;
+}
+
+.proj_img {
+	margin-left: 100px;
+}
+
+.fade-in {
+	opacity: 0;
+	transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+	opacity: 1;
+}
+
+.proj-intro h1 {
+	background-color: #90B0CE;
+	margin-left: 500px;
+	margin-right: 500px;
+}
