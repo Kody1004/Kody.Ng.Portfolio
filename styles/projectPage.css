@@ -1,0 +1,29 @@
+body{
+    margin:0;
+}
+
+.project-section {
+    position: relative;
+    min-height: 100vh;
+    padding: 1px 0px;
+    text-align: center;
+    overflow-x: hidden;
+    color: black
+}
+
+.project-section-image {
+    position: sticky;
+    top: 0px;
+    height: 100vh;
+    z-index: -1;
+}
+
+.move-seat {
+    left: 50%;
+    transform: translateX(-25%);
+}
+
+.project-section-content {
+    position: relative;
+    transform: translateY(-100vh)
+}

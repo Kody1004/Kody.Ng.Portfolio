@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+#name a{
+    color: black;
+    text-decoration: none;
+    margin: 10px 5px;
+}
+
+.header {
+    font-size: 30px;
+}
+
+.contact-info {
+    font-size: 20px;
+}
+
+.contact-wrapper {
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: #728ca5;
+}
