@@ -23,7 +23,7 @@ scene.add(light)
 const loader =  new STLLoader();
 let mesh;
 loader.load(
-    '/assets/Untitled v14.stl',
+    'assets/Untitled v14.stl',
     function (geometry) {
         mesh = new THREE.Mesh(geometry,material2)
         scene.add(mesh)
